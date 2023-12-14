@@ -2,7 +2,8 @@
 + Android Studio with JAVA 
 + FireBase 
 ## 스크린샷 
-![image](https://github.com/OhMinSuk/ToDoList/assets/113233105/b3d2119c-7afd-49b8-b33b-3f86df29bbfb)
+![image](https://github.com/OhMinSuk/ToDoList/assets/113233105/975cd07f-4a8b-482c-96ac-c1b690acafcb)
+
 
 ![image](https://github.com/OhMinSuk/ToDoList/assets/113233105/e6db44b1-5864-4747-84d8-a24b1002e7a0)<br/>
 ![image](https://github.com/OhMinSuk/ToDoList/assets/113233105/75c6cdf2-905c-485a-9572-c5254934dbd0)
