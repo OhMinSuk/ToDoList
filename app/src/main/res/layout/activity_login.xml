@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/loginActivityLogoContentDescription"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/inputEmailHint"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            />
+
+        <EditText
+                android:id="@+id/inputPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/inputPasswordHint"
+                android:inputType="textPassword"
+                android:autofillHints="password"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="-80dp"
+            android:text="@string/btnLogin" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btnSignUp"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>

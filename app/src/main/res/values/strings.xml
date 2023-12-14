@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="loginActivityLogoContentDescription">ToDoList 로고</string>
+    <string name="inputEmailHint">이메일</string>
+    <string name="inputPasswordHint">비밀번호</string>
+    <string name="inputPasswordCheckHint">비밀번호 확인</string>
+    <string name="btnLogin">로그인</string>
+    <string name="btnSignUp">회원가입</string>
+</resources>
